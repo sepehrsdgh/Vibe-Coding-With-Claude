@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14E3DB9B-C463-4696-AAEB-3DACEF1327AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VibeCoding.Domain", "src\VibeCoding.Domain\VibeCoding.Domain.csproj", "{74CA4935-5265-494B-91E3-BF03247FA05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VibeCoding.Application", "src\VibeCoding.Application\VibeCoding.Application.csproj", "{1F427024-0653-4947-900C-4DC79380690C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VibeCoding.Infrastructure", "src\VibeCoding.Infrastructure\VibeCoding.Infrastructure.csproj", "{2B9D1650-5E1A-4D17-899F-09E6F9D86486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VibeCoding.Api", "src\VibeCoding.Api\VibeCoding.Api.csproj", "{806BD298-0191-425D-BCC9-B7BDD095BB4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E7E8B02F-AF54-4482-909A-84549C059128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VibeCoding.Domain.UnitTests", "tests\VibeCoding.Domain.UnitTests\VibeCoding.Domain.UnitTests.csproj", "{823638DF-64B6-4C70-9FD1-FDBE417D4967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VibeCoding.Application.UnitTests", "tests\VibeCoding.Application.UnitTests\VibeCoding.Application.UnitTests.csproj", "{422E1D82-1198-44E9-82B6-0FF9074963AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74CA4935-5265-494B-91E3-BF03247FA05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CA4935-5265-494B-91E3-BF03247FA05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CA4935-5265-494B-91E3-BF03247FA05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CA4935-5265-494B-91E3-BF03247FA05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F427024-0653-4947-900C-4DC79380690C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F427024-0653-4947-900C-4DC79380690C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F427024-0653-4947-900C-4DC79380690C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F427024-0653-4947-900C-4DC79380690C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9D1650-5E1A-4D17-899F-09E6F9D86486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9D1650-5E1A-4D17-899F-09E6F9D86486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9D1650-5E1A-4D17-899F-09E6F9D86486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9D1650-5E1A-4D17-899F-09E6F9D86486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806BD298-0191-425D-BCC9-B7BDD095BB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806BD298-0191-425D-BCC9-B7BDD095BB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806BD298-0191-425D-BCC9-B7BDD095BB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806BD298-0191-425D-BCC9-B7BDD095BB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823638DF-64B6-4C70-9FD1-FDBE417D4967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823638DF-64B6-4C70-9FD1-FDBE417D4967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823638DF-64B6-4C70-9FD1-FDBE417D4967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823638DF-64B6-4C70-9FD1-FDBE417D4967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422E1D82-1198-44E9-82B6-0FF9074963AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422E1D82-1198-44E9-82B6-0FF9074963AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422E1D82-1198-44E9-82B6-0FF9074963AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422E1D82-1198-44E9-82B6-0FF9074963AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74CA4935-5265-494B-91E3-BF03247FA05B} = {14E3DB9B-C463-4696-AAEB-3DACEF1327AD}
+		{1F427024-0653-4947-900C-4DC79380690C} = {14E3DB9B-C463-4696-AAEB-3DACEF1327AD}
+		{2B9D1650-5E1A-4D17-899F-09E6F9D86486} = {14E3DB9B-C463-4696-AAEB-3DACEF1327AD}
+		{806BD298-0191-425D-BCC9-B7BDD095BB4F} = {14E3DB9B-C463-4696-AAEB-3DACEF1327AD}
+		{823638DF-64B6-4C70-9FD1-FDBE417D4967} = {E7E8B02F-AF54-4482-909A-84549C059128}
+		{422E1D82-1198-44E9-82B6-0FF9074963AF} = {E7E8B02F-AF54-4482-909A-84549C059128}
+	EndGlobalSection
+EndGlobal
